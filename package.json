@@ -1,0 +1,12 @@
+{
+  "name": "zip-encrypt-decrypt",
+  "version": "1.0.0",
+  "description": "Node.js scripts to compress and decompress text files into password-protected ZIP files",
+  "scripts": {
+    "compress": "node compress.js",
+    "extract": "node extract.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.7"
+  }
+}
