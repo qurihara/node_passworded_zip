@@ -3,7 +3,7 @@ const path = require('path');
 const AdmZip = require('adm-zip');
 
 // 解凍するZIPファイルのパス
-const zipFilePath = 'encrypted.zip';
+const zipFilePath = 'output.zip';
 
 // パスワード
 const password = 'your_password_here';
